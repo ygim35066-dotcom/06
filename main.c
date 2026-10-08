@@ -8,7 +8,6 @@ void func(void) {
 int main(void) {
     int x;
     printf("main x is at %p\n", (void*)&x);
-    func();
     func(); 
     return 0;
 }
